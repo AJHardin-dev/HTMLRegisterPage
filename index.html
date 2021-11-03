@@ -7,25 +7,43 @@
     <link rel="stylesheet" href="style.css">
     <title>Register Now!</title>
 </head>
-<body>
-    <nav>
+<body style="background-color: lightblue;">
+    <nav style="background-color: white;">
         <div>
             <button class="linkButton">About Us</button>
             <button class="linkButton">Register</button>
         </div>
     </nav>
 
-    <div> <!-- Big blue empty box -->
-        <div> <!-- White "form" but not the form -->
+    <div> <!-- Big empty box -->
+        <div style="padding-inline: 33%;"> <!-- White "form" but not the form -->
             <form> <!-- The actual form that holds all the inputs -->
                 <div>
                     <ul>
-                        <li><label>Sign Up</label></li>
-                        <li><input>Email</input></li>
-                        <li><input>Username</input></li>
-                        <li><input>Password</input></li>
-                        <li><input>Confirm Password</input></li>
-                        <li><button id="submitButton">Submit</button></li>
+                        <li>
+                            <label>Sign Up</label></li>
+                        <li>
+                            <input 
+                                type="email" 
+                                placeholder="Email" 
+                            /></li>
+                        <li>
+                            <input 
+                                type="text" 
+                                placeholder="Username" 
+                            /></li>
+                        <li>
+                            <input 
+                                type="password" 
+                                placeholder="Password" 
+                            /></li>
+                        <li>
+                            <input 
+                                type="password" 
+                                placeholder="Confirm Password" 
+                            /></li>
+                        <li>
+                            <button id="submitButton">Submit</button></li>
                     </ul>
                 </div>
             </form>
